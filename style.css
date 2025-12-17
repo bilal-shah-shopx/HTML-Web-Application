@@ -1,26 +1,71 @@
-body {
-    background-image: url(images/background.jpg);
-}
+ body {
+     background-image: url(images/background.jpg);
+ }
 
-.header-image, .footer-image {
-    width: 100%;
-    height: 100%;
-}
+ .header-image,
+ .footer-image {
+     width: 100%;
+     height: 100%;
+ }
 
-.nav-bar, .main-heading {
-    text-align: center;
-}
+ .nav-bar,
+ .main-heading,
+ .sub-heading {
+     text-align: center;
+ }
 
-.sea-image, .butterfly-image {
-    width: 300px;
-    height: 200px;
-    border: 5px solid black;
-}
+ .nav-bar {
+     margin-top: 12px;
+ }
 
-.sea-image {
-    float: left;
-}
+ .sea-image,
+ .butterfly-image {
+     width: 300px;
+     height: 200px;
+     border: 5px solid black;
+ }
 
-.butterfly-image {
-    float: right;
-}
+ .java-image {
+     width: 300px;
+     height: 193px;
+     margin-right: 3px;
+ }
+
+ .html-image {
+     width: 300px;
+     height: 226px;
+     margin-left: 3px;
+ }
+
+ .sea-image,
+ .java-image {
+     float: left;
+ }
+
+ .butterfly-image,
+ .html-image {
+     float: right;
+ }
+
+ .gallery-container {
+     text-align: center;
+     margin-bottom: 12px;
+ }
+
+ .gallery-image {
+     width: 250px;
+     height: 180px;
+     border: 5px solid blue;
+ }
+
+ #gallery-heading {
+     color: darkcyan;
+ }
+
+ footer {
+     margin-bottom: -4px;
+ }
+
+ .gallery-footer-image {
+     margin-bottom: 20px;
+ }
