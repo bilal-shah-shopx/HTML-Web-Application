@@ -3,19 +3,20 @@
  }
 
  .header-image,
- .footer-image {
+ .footer-image, .home-footer-image {
      width: 100%;
      height: 100%;
  }
 
- .nav-bar,
+ .nav-bar-home,
  .main-heading,
  .sub-heading {
      text-align: center;
  }
 
  .nav-bar {
-     margin-top: 12px;
+    text-align: center;
+    margin-top: 12px;
  }
 
  .sea-image,
@@ -62,10 +63,10 @@
      color: darkcyan;
  }
 
- footer {
-     margin-bottom: -4px;
+.gallery-footer-image {
+     margin-bottom: 20px;
  }
 
- .gallery-footer-image {
-     margin-bottom: 20px;
+ .footer-image {
+    margin-bottom: -4px;
  }
